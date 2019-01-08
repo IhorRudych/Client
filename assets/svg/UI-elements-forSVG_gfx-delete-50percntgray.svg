@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .a {
+        fill: #424856;
+        opacity: 0.5;
+      }
+
+      .b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <path class="a" d="M100,10a90,90,0,1,0,90,90,90,90,0,0,0-90-90"/>
+  <polygon class="b" points="141.4 65.33 134.68 58.6 100 93.28 65.32 58.6 58.6 65.32 93.28 100 58.6 134.68 65.32 141.4 100 106.72 134.68 141.4 141.4 134.68 106.72 100 141.4 65.33"/>
+</svg>

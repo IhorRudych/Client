@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #196eaa;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+
+      .b {
+        fill: #e6721e;
+      }
+
+      .c {
+        fill: #ededed;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <line class="a" x1="60" y1="139.5" x2="142" y2="57.5"/>
+  <g>
+    <path class="b" d="M11,147.47a39.75,39.75,0,1,0,39.75-39.75A39.75,39.75,0,0,0,11,147.47Z"/>
+    <path class="c" d="M29,147.47a21.75,21.75,0,1,0,21.75-21.75A21.75,21.75,0,0,0,29,147.47Z"/>
+  </g>
+  <g>
+    <path class="b" d="M110,48.47A39.75,39.75,0,1,0,149.75,8.72,39.75,39.75,0,0,0,110,48.47Z"/>
+    <path class="c" d="M128,48.47a21.75,21.75,0,1,0,21.75-21.75A21.75,21.75,0,0,0,128,48.47Z"/>
+  </g>
+</svg>

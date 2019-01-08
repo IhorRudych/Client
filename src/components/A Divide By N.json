@@ -1,0 +1,8 @@
+{
+    "name": "Divide By N",
+    "parameters": {
+        "sample_parameter_1": null,
+        "N": 2
+    },
+    "run": "function (channels) {\r\n    let that = this;\r\n    let channel_idx = 0;\r\n    let N = this.get('parameters').N;\r\n    channels.forEach(function (channel) {\r\n        let output_channel = that.get('outputs')[channel_idx].get('trace');\r\n        let input_trace = channel.get('trace');\r\n        input_trace.forEach(function (point) {\r\n            output_channel.add({ x: point.get('x'), y: point.get('y')/N});\r\n        });\r\n        channel_idx++;\r\n    });\r\n    return this.get('outputs');\r\n}"
+}

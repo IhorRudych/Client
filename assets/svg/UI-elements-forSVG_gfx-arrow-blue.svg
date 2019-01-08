@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: #196eaa;
+      }
+    </style>
+    <clipPath id="a">
+      <rect class="a" x="7.35" y="12" width="85.29" height="76"/>
+    </clipPath>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g class="b">
+    <polygon class="c" points="40.37 12 73.28 44.91 7.36 44.91 7.36 55.08 73.28 55.08 40.37 88 54.64 88 92.65 50 54.64 12 40.37 12"/>
+  </g>
+</svg>

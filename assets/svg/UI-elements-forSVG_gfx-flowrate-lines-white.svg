@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a, .c {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 8.33px;
+      }
+    </style>
+    <clipPath id="a">
+      <rect class="a" x="5" y="10" width="90" height="80"/>
+    </clipPath>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g class="b">
+    <g class="b">
+      <path class="c" d="M9.17,25.28s14.6-11.11,20.41-11.11,35,22.22,40.84,22.22S90.83,25.28,90.83,25.28"/>
+      <path class="c" d="M9.17,50s14.6-11.11,20.41-11.11,35,22.22,40.84,22.22S90.83,50,90.83,50"/>
+      <path class="c" d="M9.17,74.72s14.6-11.11,20.41-11.11,35,22.22,40.84,22.22S90.83,74.72,90.83,74.72"/>
+    </g>
+  </g>
+</svg>

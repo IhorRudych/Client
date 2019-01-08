@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .b {
+        fill: #f0f0f0;
+      }
+
+      .c {
+        fill: none;
+        stroke: #484848;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 5.53px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <circle class="a" cx="50" cy="50" r="39.82"/>
+    <path class="b" d="M50,10.37A39.63,39.63,0,1,1,10.37,50,39.68,39.68,0,0,1,50,10.37M50,10A40,40,0,1,0,90,50,40,40,0,0,0,50,10Z"/>
+  </g>
+  <path class="c" d="M22.35,33S32,25.67,35.9,25.67,59.14,40.41,63,40.41,76.54,33,76.54,33"/>
+  <path class="c" d="M22.35,49.45S32,42.07,35.9,42.07,59.14,56.82,63,56.82s13.54-7.37,13.54-7.37"/>
+  <path class="c" d="M22.35,65.85S32,58.48,35.9,58.48,59.14,73.23,63,73.23s13.54-7.38,13.54-7.38"/>
+</svg>

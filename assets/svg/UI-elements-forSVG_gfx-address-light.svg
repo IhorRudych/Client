@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: #ededed;
+      }
+
+      .b, .c {
+        fill: #196eaa;
+      }
+
+      .c {
+        font-size: 38.44px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <path class="a" d="M86.3,29.41A15.36,15.36,0,1,1,71,14.05,15.36,15.36,0,0,1,86.3,29.41"/>
+    <path class="a" d="M79.09,57.31a32.7,32.7,0,1,1-32.7-32.69,32.7,32.7,0,0,1,32.7,32.69"/>
+    <path class="b" d="M57.81,47.5A11.54,11.54,0,1,1,46.27,36,11.54,11.54,0,0,1,57.81,47.5"/>
+    <path class="b" d="M66.72,73.88c0,7.26-40.65,7.26-40.65,0s9.1-13.14,20.32-13.14,20.33,5.88,20.33,13.14"/>
+    <text class="c" transform="translate(60.61 42.94)">+</text>
+  </g>
+</svg>

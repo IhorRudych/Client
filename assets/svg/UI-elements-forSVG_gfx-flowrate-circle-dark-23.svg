@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: #e6721e;
+      }
+
+      .b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <path class="a" d="M50,74A23,23,0,1,1,73,51,23,23,0,0,1,50,74"/>
+    <path class="b" d="M50,31A20,20,0,1,1,30,51,20,20,0,0,1,50,31m0-20A40,40,0,1,0,90,51,40,40,0,0,0,50,11"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "d3",
+  "main": "d3-4.10.2.min.js",
+  "assets": [],
+  "styles": [],
+  "devAssets": [],
+  "moduleDir": "src"
+}

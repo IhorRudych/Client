@@ -1,0 +1,8 @@
+{
+    "name": "A Users Custom Filter",
+    "parameters": {
+        "sample_parameter_1": null,
+        "sample_parameter_2": 0
+    },
+    "run": "function (channels) {/* \r\n    this.inherited(arguments); */\r\n    let that = this;\r\n    let channel_idx = 0;\r\n    let sample_parameter_1 = this.get('parameters').sample_parameter_1;\r\n    let sample_parameter_2 = this.get('parameters').sample_parameter_2;\r\n    channels.forEach(function (channel) {\r\n        let output_channel = that.get('outputs')[channel_idx].get('trace');\r\n        let input_trace = channel.get('trace');\r\n        input_trace.forEach(function (point) {\r\n            output_channel.add({ x: point.get('x'), y: point.get('y') /*+ `___USER JAVSCRIPT CODE TO ANALYZE Y DATA POINTS__`*/ });\r\n        });\r\n        channel_idx++;\r\n    });\r\n    return this.get('outputs');\r\n}"
+}

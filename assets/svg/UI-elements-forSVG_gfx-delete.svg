@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .a {
+        fill: #4cb048;
+      }
+
+      .b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <path class="a" d="M100,30a70,70,0,1,0,70,70,70,70,0,0,0-70-70"/>
+  <polygon class="b" points="137.86 73.03 126.97 62.14 100 89.11 73.03 62.14 62.14 73.03 89.11 100 62.14 126.97 73.03 137.86 100 110.89 126.97 137.86 137.86 126.97 110.89 100 137.86 73.03"/>
+</svg>

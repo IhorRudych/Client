@@ -1,0 +1,1460 @@
+/**/
+.quijote {
+    background-color: aqua;
+    border-color: red;
+    color: darkgoldenrod;
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        width:700px;         
+        width: auto !important;   /* Firefox will set width as auto */
+        overflow: scroll;
+    }
+}
+
+input{
+    width: auto;
+    padding: 5px 5px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* .input-test {
+    opacity: 0;
+}
+
+.input-test::after {
+    opacity: 1;
+    content: "Hello";
+} */
+
+.btn {
+    background: none;
+    color: #ffffff;
+    border-radius: 0%;
+    box-shadow: none;
+    margin: 5px 5px 5px 5px;
+    border: none;
+    opacity: 1;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+
+.btn-rounded {
+    border-radius: 9px;
+}
+
+.btn-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+/*.drop-down-item:hover {
+    color: #FFF;
+} */
+
+.btn-success {
+    background-color: #4CB048;
+}
+
+.btn-success:hover {
+    opacity: 0.9;
+}
+
+.btn-go {
+    border: solid 2px #4CB048;
+    padding: 3px 18px 4px 18px;
+    color: #4cb048;
+}
+
+.btn-go-lg {
+    border: solid 2px #4CB048;
+    padding: 5px 7px 5px 7px;
+    color: #141414;
+    font-size: 14px;
+}
+
+.btn-go:hover{
+    opacity: 0.84;
+}
+
+.btn-go-text:hover {
+    background: none;
+    color: black;
+}
+
+.btn-rm{
+    color: #141414;
+    padding: 2px 4px 4px 4px;
+    font-size: 10px;
+    font-weight: 300;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+    width:20px;
+    height: 20px;
+}
+
+.btn-add {
+    color:black;
+    line-height:9px;
+    font-size:12px;
+    font-weight:300;
+    right: 23%;
+    top: 67%;
+}
+
+.btn-add:hover{
+    color: #4cb048;
+    background: none;
+    text-shadow: none;
+}
+
+.btn-drop{
+    background-color: #4CB048;
+    color: white;
+    padding: 6px 11px;
+}
+
+.btn-drop:hover {
+    opacity: 0.8;
+}
+
+.btn-fade:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.btn-text{
+    font-size: .5em;
+    color: #FFF;
+    padding: 5px;
+}
+
+.btn-text:hover {
+    visibility: visible;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-link {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: .75em;
+    top: -21px;
+    margin-right: 10px;
+}
+
+.btn-text-lg {
+    /* border: solid 2px #4CB048; */
+    max-width: 57%;
+    padding: 5px;
+    background-color: #4CB048;
+}
+
+.btn-delete{
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 2px;
+    background-color: #4a4a4a;
+}
+@media only screen and (min-width: 700px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: -27px;
+        left: 84%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: -10px;
+        left: 68%;
+    }
+}
+@media only screen and (min-width: 800px) and (min-height: 500px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: -10px;
+        left: 85%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: 0%;
+        left: 89%;
+    }    
+}
+
+@media only screen and (min-width: 1200px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: 0%;
+        left: 91%;
+    }    
+}
+
+@media only screen and (min-width: 1500px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: -12px;
+        left: 92%;
+    }    
+}
+@media only screen and (min-width: 1700px) {
+    .btn-row {
+        z-index: 1;
+        right: 4px;
+        bottom: 4%;
+        left: 94%;
+    }    
+}
+
+
+.btn-list {
+    height: 30px;
+    width: auto;
+    padding: 5px 18px 6px 18px;
+}
+
+.onyx-menu-item:hover {
+    background-color: #4cb048;
+    color: #FFF;    
+}
+.onyx-button.pressed, .onyx-button.active {
+	background-image: none;
+	background-position: 0% 0%;
+	border-top: inherit;
+	box-shadow: none;
+}
+
+  .input-edge {
+    width: 80%;
+    height: auto;
+    font-size: .55em;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .nav-icon{
+        position: absolute;
+        right: 9%;
+    }
+  }
+  
+  @media only screen and (min-width: 1026px) {
+
+    .nav-icon{
+        position: absolute;
+        right: 7%;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+
+    .nav-icon{
+        position: absolute;
+        right: 3.4%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+
+    .nav-text{
+        line-height: 20px;
+        width: auto;
+        position: fixed;
+        right: 19%;
+        font-size: .75em;
+    }
+  }  
+  @media only screen and (min-width: 968px) {
+
+    .nav-text{
+        line-height: 20px;
+        width: auto;
+        position: fixed;
+        right: 14%;
+    }
+  }
+
+  .nav-icon-group {
+      position: absolute;
+      right: 0%;
+  }
+  @media only screen and (min-width: 1026px) {
+
+    .nav-text{
+        line-height: 20px;
+        width: auto;
+        position: fixed;
+        right: 10%;
+    }
+  }  
+
+  @media only screen and (min-width: 1500px) {
+
+    .nav-text{
+        line-height: 20px;
+        width: auto;
+        position: fixed;
+        right: 7.5%;
+    }
+  }
+  
+.bottom{
+    position: relative;
+}
+
+
+.padall {
+    padding: 5px 5px 5px 5px;
+}
+
+.enyo-fittable-rows-layout.enyo-stretch > *.pull-right {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.enyo-fittable-rows-layout > * {
+    position: relative;
+  }
+
+  .enyo-icon {
+    margin: 0% 4% 0% 4%;
+    padding: 13px 11px 12px 10px;
+    vertical-align: middle;
+    height:240px;
+    width: auto;
+  }
+
+.scroller{
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-y: scroll;
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 280px;
+    z-index: 10;
+}
+
+/* for the outside of the accordion */
+.outer {
+    max-height: 100%;
+}
+.enyo-scroller::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+}
+
+/* Handle */
+.enyo-scroller::-webkit-scrollbar-thumb {
+    height: auto;
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    background-color: #D8D9DA;
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.enyo-scroller::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.lead{
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.input-body {
+    border: solid 1px black;
+}
+
+.input-body:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.onyx-popup {
+    background: #FFF;
+}
+
+.test-width {
+    width: 256px;
+}
+
+.data-width {
+    width: 305px;
+}
+
+.form-check {
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.cancelled {
+    width: 50px;
+    height: 50px;
+}
+
+.over {
+    overflow: visible;
+}
+
+.icon-mini {
+    width: 20px;
+}
+
+.icon-mini:hover {
+    opacity: .8;
+}
+
+@media only screen and (min-width: 724px) {
+    .crud {
+        position:absolute;
+        top:22%;
+        left:10%;
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .crud {
+        position:absolute;
+        top:20%;
+        left:7%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .crud {
+        position:absolute;
+        top:25%;
+        left:8%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+.icon-mini-group .crud {
+    opacity: 0;
+}
+
+.icon-mini-group:hover .crud {
+    opacity: 1;
+}
+}
+
+@media only screen and (min-width: 738px) {
+.row-light .icon-mini-group {
+    visibility: visible;
+}
+}
+@media only screen and (min-width: 1024px) {
+
+.row-light .icon-mini-group {
+    visibility: hidden;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.row-light:hover .icon-mini-group {
+    visibility: visible;
+}
+}
+@media only screen and (min-width: 724px) {
+    .icon-group-grid {
+        position: relative;
+        left: 95%;
+        margin-top: -17%;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .icon-group-grid {
+        position: absolute;
+        left: 83%;
+        z-index: 10;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .icon-group-grid {
+        position: absolute;
+        margin-top: none;
+        margin-left: 10%;
+        z-index: 10;
+        opacity: 1;
+    }
+}
+
+.enyo-data-list .active {
+
+}
+
+.vertical-text{
+    font-size: .61em;
+    transform: rotate(-90deg);
+    line-height: 14px;
+    font-weight: 500;
+    right: 50%;
+    left: 57%;
+    top: 37%;
+    bottom: 50%;
+    float: right;
+}
+
+.onyx-icon.onyx-icon-button.active, .onyx-icon.onyx-icon-button.pressed{
+    background-position: 0px 0px;
+    border-top: inherit;
+}
+
+.collapser{
+    font-size: .7em;
+    text-decoration: underline;
+    float: right;
+    margin-right: 12%;
+    margin-top: -7%;
+}
+
+.collapser1{
+    float: right;
+    margin-right: -29%;
+    margin-top: -5.5%;
+    position: relative;
+    width: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.onyx-input-decorator.input-overrider{
+    padding: 0px;
+}
+
+.input-overrider input {
+    font-weight: 200;
+}
+
+.sizer-icon {
+    width: 26px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#application_panels_DataPanel_SortingOptions div {
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 500px) {
+    .header-small {
+        font-size: .7em;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .header-small {
+        font-size: inherit;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .sizer-table {
+        width: 26%;
+    }
+
+}
+@media only screen and (min-width: 800px) {
+    .sizer-table {
+        width: 23.5%;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .sizer-table {
+        width: 31%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .sizer-table {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .sizer-table-1 {
+        width: 21%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .sizer-table-1 {
+        width: 19%;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .sizer-table-1 {
+        width: 14%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .sizer-table-1 {
+        width: 14%;
+    }
+}
+
+@media only screen and (min-width: 704px) {
+    .sizer-table-2 {
+        width: 15%;
+        padding-left: 0px;
+        word-break: break-word;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sizer-table-2 {
+        width: 17%;
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .sizer-table-2 {
+        width: 18%;
+        padding-left: 5px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .sizer-table-2-H {
+        width: 19%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .sizer-table-2-H {
+        width: 18%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .sizer-table-2-H {
+        width: 17%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .sizer-table-2-H {
+        width: 18%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .sizer-table-2-D {
+        width:18%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sizer-table-2-D {
+        width:13%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .sizer-table-2-D {
+        width:14%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sizer-table-3 {
+        width: 13%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .sizer-table-3 {
+        width: 14%;
+    }
+}
+
+@media only screen and (min-width: 724px) {
+    .sizer-table-4 {
+        width: 16%;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .sizer-table-4 {
+        width: 16%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .sizer-table-4 {
+        width: 32%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .sizer-table-4 {
+        width: 23.5%;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .sizer-table-4 {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+    .axis-icon {
+        position: absolute;
+        margin-left: 14px;
+        margin-top: .1%;
+        width: 22px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .axis-icon {
+        position: absolute;
+        margin-left: 14px;
+        margin-top: 1%;
+        width: 22px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 734px) {
+    .axis-x-icon {
+        margin-top: -20px;
+        margin-right: 8px;
+        z-index: 0;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 734px) and (min-width:1200px) {
+    .axis-x-icon {
+        margin-top: -53px;
+        margin-right: 8px;
+        z-index: 0;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 844px) {
+    .axis-x-icon {
+        margin-top: -25px;
+        margin-right: 4px;
+        z-index: 0;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .axis-x-icon {
+        margin-top: -27px;
+        margin-right: 1%;
+        z-index: 1;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .axis-x-icon {
+        margin-top: -2px;
+        margin-right: 11%;
+        z-index: 1;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .axis-x-icon {
+        margin-top: -16px;
+        margin-right: 16%;
+        z-index: -1;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .axis-x-icon {
+        margin-top: -8px;
+        margin-right: 17%;
+        z-index: -1;
+        width: 25px;
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .test-graph {
+        font-size:70px;
+        margin-left:2px;
+        margin-top:22px;
+        margin-bottom:22px;
+        height: 100%;
+        width:94%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .test-graph {
+        font-size:70px;
+        margin-left:2px;
+        margin-top:22px;
+        margin-bottom:22px;
+        height: 96%;
+        width:96%;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .test-graph {
+        font-size:70px;
+        margin-left:7px;
+        width:85%;
+        height: 100%;
+        margin-top: 3%;
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .test-graph {
+        font-size:70px;
+        margin-left:7px;
+        width:81%;
+        height: 95%;
+        margin-top: 3%;
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (min-width: 724px) {
+    .popup-box{
+        width: 67%;
+        width: max-content;
+        width: -moz-fit-content;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .popup-box{
+        width: 60%;
+        width: max-content;
+        width: -moz-fit-content;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .popup-box{
+        width: 53%;
+        width: max-content;
+        width: -moz-fit-content;
+    }
+}
+
+#application_panels_TestPanel_TestDeviceButton_menu_client_strategy_client {
+    transform: translateZ(1px) !important;
+}
+#application_panels_TestPanel_TestToolbar {
+    transform: translateZ(1) !important;
+}
+
+
+.xy2-y {
+    display: none;
+}
+
+#application_panels_DataPanel_DataGrid_active {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.edge {
+    max-width: 220px;
+}
+
+
+.heading {
+    font-size: 1.1em;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.badge-list {
+    width:45px;
+    padding-top: .75%;
+}
+
+.pright {
+    padding-right: 30px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* Popup container - can be anything you want */
+.tool-tip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.tool-tip-text {
+    width: 200px;
+    min-height: auto;
+    background-color: #FFF;
+    color: #292929;
+    text-align: left;
+    font-size: .51em;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;
+    display: block;
+    right: 0%;
+    line-height: normal;
+    white-space: normal;
+}
+
+.onyx-tooltip.below.right-arrow::after {
+    right: 7%;
+    border-bottom: 6px solid #fff;
+}
+
+.filter-name {
+    width:64%;
+    font-size:15px;
+    cursor:grab;
+    cursor: -webkit-grab;
+}
+
+.filter-name:active {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.drag:hover {
+    border-top: 3px solid #4cb048 !important;
+}
+
+@media only screen and (min-width: 700px) {
+    .run-width {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .run-width {
+        width: 75%;
+    }
+}
+
+.enyo-fill{
+    width: auto;
+}
+
+.setting-popup {
+    background-color: white;
+    z-index: 123;
+    float: right;
+    position: relative;
+    margin-top: 34px;
+    margin-right: 26px;
+}
+
+.setting-text {
+    font-size:15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.setting-text:hover {
+    color: #fff;
+    background-color: #4cb048;
+}
+
+.border-spacer{
+    border-bottom:1px solid black;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+
+@media only screen and (min-width: 725px) {
+    .modal-mobile {
+        margin-left:10% !important;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .modal-mobile {
+        margin-left:25% !important;
+    }
+}
+
+.library .yaxislayer-above{
+    visibility: hidden;
+}
+.row-light .yaxislayer-above{
+    visibility: hidden;
+}
+.item .yaxislayer-above{
+    visibility: hidden;
+}
+
+.note-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    font-size: 12px;
+}
+
+.onyx-icon.disabled {
+    display: none;
+}
+
+/**/
+.drop-down-item {
+    color: #141414;
+    z-index: 1000;
+    border-bottom: #212121 solid 1px;
+}
+.drop-down-group{
+    line-height: 16px;
+    padding: 0px;
+}
+#application_panels_DataPanel_DataManager_DataControl_FilterControl_FileInput::after {
+    font-size: 0.8rem;
+    color: black;
+  }
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'ADD CUSTOM FILTER';
+    font-size: 1.3em;
+    background: none;
+    color: #4cb048;
+    border: none;
+  }
+  .custom-file-input:hover::before {
+    background: none;
+    color: #C65509;
+    border: none;
+  }
+
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+  input.custom-file-input{
+      border: none;
+  }
+  .well{
+      padding-left: 1%;
+      background-color: #ededed;
+  }
+
+.borderb {
+    border-bottom: 13px solid #141414;
+}
+
+  .inputhead{
+      color:white;
+      width: 100px; 
+      background-color: #000;
+      margin-right: 12px;
+      border-top: 3px solid black;
+      overflow: hidden;
+  }
+
+  .form-check-input {
+    background: none;
+    border: none;
+    background-color: #FFF;
+    height:20px !important;
+    width:20px;
+    margin-right: 5px;
+    transition: transform .2s;
+}
+
+.enyo-fittable-columns-layout.enyo-stretch > *.form-check-input {
+    margin-top: 6px !important;
+}
+
+div[checked="checked"]  {
+    font-size: .87em;
+    background: url("../assets/svg/UI-elements-forSVG_gfx-checkmark.svg");
+    /* margin: -6px 0px 0px 5px;
+    position: absolute; */
+    background-color: #fff;
+    background-position: center !important;
+}
+
+.head-info{
+    padding: 5px;
+    background-color: #4a4a4a;
+    color: #ffffff;
+    text-align: center;
+    font-size: .8em;
+    font-weight: 200;
+    word-wrap: normal;
+    white-space: normal;
+}
+
+.run-text{
+    background-color: #292929;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.4em;
+    padding: 5px;
+    font-weight: 200;
+}
+.navbar{
+    background-color: white;
+    height:42px;
+    padding: 5px 8px 5px 0px;
+}
+
+.row-light div:hover {
+    background-color: #292929;
+    color: #FFF;
+}
+
+.selected.inputhead  {
+    background-color: #212121;
+    color: white;
+}
+
+.btn-go.onyx-button.pressed{
+    border-top: solid 2px #4CB048;
+
+}
+
+.btn-go-lg.onyx-button.pressed{
+    border-top: solid 2px #4CB048;
+
+}
+
+input.text-center{
+    width: 100px;
+    color: white;
+}
+
+@media only screen and (min-width: 700px) {
+    .library {
+        height: 21%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .library {
+        height: 20%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 700px) and (min-height: 1000px) {
+    .library {
+        height: 15%;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .library {
+        height: 22%;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 800px) and (min-height: 900px) {
+    .library {
+        height: 11%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1000px) and (min-height: 900px) {
+    .library {
+        height: 10%;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (min-height: 900px) {
+    .library {
+        height: 15%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .library {
+        height: 16%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1500px) and (min-height: 1000px) {
+    .library {
+        height: 14%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1500px) and (min-height: 1200px) {
+    .library {
+        height: 12%;
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .library {
+        height: 19%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1700px) and (min-height: 600px) {
+    .library {
+        height: 23%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1700px) and (min-height: 700px) {
+    .library {
+        height: 19%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1700px) and (min-height: 900px) {
+    .library {
+        height: 15%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1700px) and (min-height: 1100px) {
+    .library {
+        height: 13%;
+        background-color: black;
+    }
+}
+@media only screen and (min-width: 1700px) and (min-height: 1300px) {
+    .library {
+        height: 11%;
+        background-color: black;
+    }
+}
+
+.popup {
+    background-color: rgba(41, 41, 41, 0.72);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+    overflow-y: scroll;
+}
+
+.popup-box{
+    background-color: white;
+    color: black;
+    padding: 45px 45px 10px 45px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    border: solid 1px #4a4a4a;
+}
+.whiten > * {
+    fill: #FFF !important;
+}
+
+.table-head {
+    border-bottom: #000 solid 1px;
+}
+
+.table-row {
+    background-color: rgb(221, 221, 221);
+    border-top: #b2b2b2 solid 1px;
+    border-bottom: #b2b2b2 solid 1px;
+}
+
+.marker2 .js-plotly-plot .plotly .main-svg {
+    padding-left: 22px;
+    padding-bottom: 25px;
+}
+
+.test-graph {
+    background-color: black;
+}
+.data-right-column {
+    background-color: black;
+}
+
+.cssCircle {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;  
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    
+    background: #000;
+    border: 1px solid #4CB048;
+    color: #4CB048;
+    text-align: center;
+    line-height: .8em;
+
+  }
+
+select {
+    background: transparent;
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    border:none;
+ }
+
+ option::after {
+     background-color: white;
+     color: red;
+ }
+ 
+ .solvent-select{
+    top: 6px;
+    border: white 1px solid;
+    border-radius: 0px;
+    height: 21px !important;
+    margin-left: 7px;
+    -webkit-appearance: none;
+ }
+
+ option {
+     background-color: white;
+ }
+
+ @media only screen and (min-width: 500px) and (max-width: 800px) {
+     .status-class {
+         position: absolute;
+         left: 30%;
+         visibility: hidden;
+      }
+ }
+
+ @media only screen and (min-width: 800px) {
+     .status-class {
+         position: absolute;
+         left: 30%;
+         visibility: visible;
+      }
+ }
+
+ @media only screen and (min-width: 1200px) {
+     .status-class {
+         position: absolute;
+         left: 40%;
+         visibility: visible;
+      }
+ }
+
+ @media only screen and (min-width: 500px) {
+     .temp-class {
+         position: absolute;
+         left: 35%;
+      }
+ }
+
+ @media only screen and (min-width: 800px) {
+     .temp-class {
+         position: absolute;
+         left: 60%;
+      }
+ }
+
+ @media only screen and (min-width: 1200px) {
+     .temp-class {
+         position: absolute;
+         left: 66%;
+      }
+ }
+
+ .onyx-radiobutton {
+     text-shadow: none;
+
+ }
+
+ .onyx-radiobutton.active {
+    background: none;
+    background-color: #4cb048;
+    border-top: none;
+    box-shadow: none;
+    border: 3px solid #4cb048;
+    border-radius: 0;    
+}
+
+.onyx-radiobutton:first-child {
+    border-radius: 0;
+}
+
+.onyx-radiobutton:last-child {
+    border-radius: 0;
+    border-right: 2px solid #4cb048;
+}
+
+.page1 {
+    font-size: 14px;
+}
+.page2 {
+    font-size: 14px;
+}

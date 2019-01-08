@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <defs>
+    <style>
+      .a {
+        fill: #669fba;
+      }
+
+      .b {
+        fill: none;
+        stroke: #1c80b6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 18px;
+      }
+
+      .c {
+        fill: #fff;
+        stroke: #4bb8f6;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <path class="a" d="M65.18,97.82,28,41.62h24.1L78.48,81l26.77-39.36h19.68l-36,54.78,39.53,60.45h-23L76.35,113.07,47.1,156.85H25.65Z"/>
+  <g>
+    <line class="b" x1="24.66" y1="175.69" x2="125.89" y2="26.02"/>
+    <circle class="c" cx="125" cy="25.52" r="12.5"/>
+    <circle class="c" cx="25" cy="175.27" r="12.5"/>
+  </g>
+</svg>

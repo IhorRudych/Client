@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .a {
+        fill: #196eaa;
+        stroke: #196eaa;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 14.67px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <polyline class="a" points="20.96 42.37 79.63 115.07 80.44 161.83 119.56 161.83 120.37 115.07 179.04 42.37 188 38.17 12 38.17"/>
+</svg>

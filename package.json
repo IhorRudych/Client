@@ -1,0 +1,29 @@
+{
+  "name": "Client",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "moduleDir": "src",
+  "assets": [
+    "assets/**/*.*",
+    "fonts/**/*.ttf",
+    "svg/**/*.ttf"
+  ],
+  "styles": [
+    "css/*.less",
+    "css/*.css"
+  ],
+  "dependencies": {
+    "csv": "^3.1.0",
+    "d3-peaks": "0.0.1",
+    "jslint": "^0.11.0",
+    "loess": "^1.3.5",
+    "mathjs": "^4.4.2",
+    "ml-matrix": "^5.1.1",
+    "ml-savitzky-golay": "^3.0.0",
+    "ml-savitzky-golay-generalized": "^1.1.1",
+    "moving-averages": "^4.0.5",
+    "peaktools": "^1.0.1",
+    "regression": "^2.0.1"
+  }
+}

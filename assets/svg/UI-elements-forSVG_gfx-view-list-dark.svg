@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #4CB048;
+        stroke-miterlimit: 10;
+        stroke-width: 8.66px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <line class="a" x1="86" y1="24.15" x2="32.8" y2="23.96"/>
+    <line class="a" x1="86" y1="50.11" x2="32.8" y2="49.97"/>
+    <line class="a" x1="86" y1="76.04" x2="32.8" y2="76"/>
+    <line class="a" x1="16.12" y1="24.05" x2="24.14" y2="23.98"/>
+    <line class="a" x1="16.06" y1="50" x2="24.08" y2="49.99"/>
+    <line class="a" x1="16" y1="75.94" x2="24.02" y2="76.02"/>
+  </g>
+</svg>

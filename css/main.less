@@ -1,0 +1,357 @@
+/**/
+
+html *
+{
+   font-family: "OpenSans" !important;
+}
+
+div {
+    font-weight: 200;
+}
+
+@data-toolbar-logo-width: 175px;
+@data-toolbar-height: 32px;
+
+.device-status {
+    height: @data-toolbar-height;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.status-icon {
+    height: 21px;
+    width: 21px;
+    margin-top: 0px;
+}
+
+.editor-drawer {
+    color: @tx-white;
+    background-color: @tx-foo;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.logo-large {
+    width: 168px;
+    height: 74px;
+    /* background-color: #141414; */
+    padding: 10px;
+}
+
+.data-left-column {
+    width: @data-toolbar-logo-width;
+    background-color: @tx-foo;
+    border-right: solid 1px @tx-foo;
+    .spacer {
+        height: 10%;
+    }
+}
+
+.button-spacer {
+    width: 32px;
+}
+
+.data-right-column {
+    height: @data-toolbar-height;
+    line-height: @data-toolbar-height;
+    vertical-align: middle;
+    color: @tx-foo2;
+    background-color: @tx-accent2;
+    .data-toolbar {
+        background-color: @tx-foo;
+        height: @data-toolbar-height;
+        line-height: @data-toolbar-height;
+        .data-label {
+            height: @data-toolbar-height;
+            line-height: @data-toolbar-height;
+            color: @tx-white;
+            img {
+                margin-left: 16px;
+                margin-right: 8px;
+                vertical-align: middle;
+                width: 20px !important;
+                height: 20px !important;
+            }
+        }
+        .data-logo {
+            height: @data-toolbar-height;
+            line-height: 0px;
+            color: @tx-white;
+            img {
+                line-height: 0px;
+                margin-left: 16px;
+                margin-right: 8px;
+                vertical-align: middle;
+                width: 20px !important;
+                height: 20px !important;
+            }
+        }
+        img {
+            vertical-align: middle;
+        }
+    }
+}
+
+.icon-test {
+    font-weight: bold;
+    color: @tx-white;
+    background-color: @tx-foo;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: middle;
+    width: @data-toolbar-logo-width;
+    cursor: pointer;
+    img {
+        margin: 16px;
+        vertical-align: middle;
+        width: 30px !important;
+        height: 30px !important;
+        background-image: url("../assets/svg/UI-elements-forSVG_gfx-symbol-test-light.svg");
+        content: url("../assets/svg/UI-elements-forSVG_gfx-symbol-test-light.svg");
+    }
+    &.selected {
+        color: @tx-accent1;
+        background-color: @tx-white;
+        cursor: default;        
+        img {
+            width: 30px !important;
+            height: 30px !important;
+            background-image: url("../assets/svg/UI-elements-forSVG_gfx-symbol-test-dark.svg");
+            content: url("../assets/svg/UI-elements-forSVG_gfx-symbol-test-dark.svg");
+        }
+    }
+}
+
+#application_panels_PageSelection .selected div {
+    font-weight: 600;
+}
+
+.icon-data {
+    font-weight: bold;
+    color: @tx-white;
+    background-color: @tx-foo;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: middle;
+    width: @data-toolbar-logo-width;
+    cursor: pointer;
+    img {
+        margin: 16px;
+        vertical-align: middle;
+        width: 30px !important;
+        height: 30px !important;
+        background-image: url("../assets/svg/UI-elements-forSVG_gfx-symbol-data-light.svg");
+        content: url("../assets/svg/UI-elements-forSVG_gfx-symbol-data-light.svg");
+    }
+    &.selected {
+        color: @tx-accent1;
+        background-color: @tx-white;
+        cursor: default;   
+        img {
+            width: 32px !important;
+            height: 32px !important;
+            background-image: url("../assets/svg/UI-elements-forSVG_gfx-symbol-data-dark.svg");
+            content: url("../assets/svg/UI-elements-forSVG_gfx-symbol-data-dark.svg");
+        }
+    }
+}
+
+.icon-service {
+    font-weight: bold;
+    color: @tx-white;
+    background-color: @tx-foo;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: middle;
+    width: @data-toolbar-logo-width;
+    cursor: pointer;   
+    img {
+        margin: 16px;
+        vertical-align: middle;
+        width: 30px !important;
+        height: 30px !important;
+        background-image: url("../assets/svg/UI-elements-forSVG_gfx-symbol-svc-light.svg");
+        content: url("../assets/svg/UI-elements-forSVG_gfx-symbol-svc-light.svg");
+    }
+    &.selected {
+        color: @tx-accent1;
+        background-color: @tx-white;
+        cursor: default;
+        img {
+            width: 32px !important;
+            height: 32px !important;
+            background-image: url("../assets/svg/UI-elements-forSVG_gfx-symbol-svc-dark.svg");
+            content: url("../assets/svg/UI-elements-forSVG_gfx-symbol-svc-dark.svg");
+        }
+    }
+}
+
+.my-plot-panels > * {
+}
+
+@media only screen and (min-width: 755px) {
+    .my-graph-panel {
+        height: 50%;
+        .my-plot-gradient {
+            width: 98.75%;
+        }
+        .my-plot-data {
+            width: 98.75%;
+        }
+        .my-plot-pressure {
+            width: 98.75%;
+        }
+        .my-plot-brush {
+            width: 98.75%;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .my-graph-panel {
+        height: 50%;
+        .my-plot-gradient {
+            width: 98.75%;
+        }
+        .my-plot-data {
+            width: 98.75%;
+        }
+        .my-plot-pressure {
+            width: 98.75%;
+        }
+        .my-plot-brush {
+            width: 98.75%;
+        }
+    }
+    
+}
+
+.my-image-panel {
+    height: 100%;
+    width: 25%;
+}
+
+.my-side-panel {
+    position: absolute;
+    right: 0;
+    left: 50px;
+    border-left: solid 1px @tx-black;
+    background-color: @tx-white;
+}
+
+.slideable-sample {
+    position: absolute;
+    color: @tx-black;
+}
+
+.slideable-sample.right {
+    left: auto;
+    border-bottom: solid 1px @tx-black;
+    border-top: solid 1px @tx-black;
+}
+
+.pullout-grabbutton {
+    position: absolute;
+    top: 6px;
+    height: 35px;
+    width: 33px;
+    left: -33px;
+    border: solid 1px #000000;
+    border-right: none;
+    border-radius: 9px 0 0 9px;
+    box-shadow: -4px 2px 17px -6px #000 inset;
+    background-color: @tx-white;
+    background-image: none;
+    color: #4a4a4a;
+}
+
+.onyx-input-decorator.onyx-focused {
+    background-color: @tx-foo;
+}
+
+.marker .js-plotly-plot .plotly .main-svg {
+    padding: 5px 0px 35px 30px !important;
+    color: white !important;
+    font-size: 10px !important;
+    max-width: 98%;
+}
+.marker .js-plotly-plot .plotly svg {
+    overflow: visible !important;
+    color: white !important;
+}
+
+
+.icon-slide {
+    animation-name: connected;
+    position: relative;
+    -webkit-animation-name: connected; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: connected;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode:forwards
+  }
+
+  
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes connected {
+    0%   { right:0px; top:0px; }
+    100% { right:120px; top:0px; }
+}
+
+/* Standard syntax */
+@keyframes connected {
+    0%   { right:0px; top:0px; }
+    100% { right:120px; top:0px; }
+}
+
+
+#application_panels_TestPanel_TestSetupPanel_snackbar,#application_panels_DataPanel_DataManager_DataControl_FilterControl_snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    max-height: 50px;
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 10px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+    font-size: .81em;
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#application_panels_TestPanel_TestSetupPanel_snackbar.show,#application_panels_DataPanel_DataManager_DataControl_FilterControl_snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

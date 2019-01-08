@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: #196ea8;
+      }
+
+      .b {
+        fill: none;
+        stroke: #fff;
+        stroke-linejoin: bevel;
+        stroke-width: 8.28px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <circle class="a" cx="50" cy="50" r="40"/>
+    <polyline class="b" points="50 21.03 50 50.87 66.55 65.17"/>
+  </g>
+</svg>

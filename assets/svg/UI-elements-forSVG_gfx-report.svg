@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+        stroke: #4CB048;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.77px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <rect class="a" x="7.21" y="7.36" width="59.33" height="77.65"/>
+  <rect class="a" x="33.47" y="14.99" width="59.33" height="77.65"/>
+</svg>

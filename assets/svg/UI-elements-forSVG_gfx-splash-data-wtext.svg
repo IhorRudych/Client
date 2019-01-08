@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .b, .d {
+        fill: none;
+        stroke: #484848;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke-width: 1.78px;
+      }
+
+      .c {
+        font-size: 22.87px;
+        fill: #484848;
+        font-family: OpenSans-Semibold, Open Sans;
+        font-weight: 700;
+      }
+
+      .d {
+        stroke-width: 3.2px;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <g>
+      <rect class="a" x="9.34" y="9.53" width="81.47" height="81.47" rx="3.56" ry="3.56"/>
+      <rect class="b" x="9.34" y="9.53" width="81.47" height="81.47" rx="3.56" ry="3.56"/>
+    </g>
+    <text class="c" transform="translate(20.08 34.62)">DATA</text>
+  </g>
+  <polyline class="d" points="75.23 76.03 65.54 76.03 60.05 61.94 52.33 76.03 41.55 47.66 30.78 76.03 24.91 76.03"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 30">
+  <defs>
+    <style>
+      .a {
+        fill: #f01e2d;
+      }
+
+      .b {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 1.08px;
+      }
+
+      .c {
+        font-size: 10.6px;
+        fill: #fff;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <title>UI-elements-forSVG</title>
+  <g>
+    <rect class="a" x="2" y="0.86" width="82" height="28.28"/>
+    <g>
+      <line class="b" x1="14.2" y1="10.36" x2="22.84" y2="19.01"/>
+      <line class="b" x1="14.2" y1="19.01" x2="22.84" y2="10.36"/>
+    </g>
+    <text class="c" transform="translate(35.97 19.05)">STOP</text>
+  </g>
+</svg>

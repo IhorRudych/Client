@@ -1,0 +1,72 @@
+stages:
+  - build
+  - test
+
+before_script:
+  - apt-get update
+  - apt-get install curl software-properties-common -y
+  - curl -sL https://deb.nodesource.com/setup_8.x | bash -
+  - apt-get install nodejs -y
+  - su -c "npm install --unsafe-perm -g enyo-dev"
+  - su -c "npm upgrade -g"
+  - enyo init
+  - enyo pack
+  
+pack: &pack
+  stage: build
+  script:
+    - echo "Pack successful!"
+   
+#pack-hw:
+#  stage: build
+#  tags:
+#    - test-hardware
+#  before_script: 
+#    - enyo init
+#    - enyo pack
+#  script: 
+#    - echo "Pack successful!"
+
+local-test:
+  stage: build
+#  tags:
+#    - hardware
+  before_script:
+#  - sudo apt-get update
+#  - apt-get install curl software-properties-common -y
+#  - curl -sL https://deb.nodesource.com/setup_8.x | bash -
+#  - apt-get install nodejs -y
+#  - su -c "npm install --unsafe-perm -g enyo-dev"
+#  - su -c "npm upgrade -g"
+#  - enyo init
+#  - enyo pack
+  script: 
+  - echo "Pack successful!"
+#    - read -p "Press enter to continue"
+
+lighthouse:
+  stage: test
+  script:
+    - apt-get install libxss1 libappindicator1 libindicator7 -y
+    - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    - apt install ./google-chrome*.deb -y
+    - su -c "npm install --unsafe-perm -g lighthouse-ci"
+    - su -c "npm install -g http-server"
+    - http-server ./dist/ &  
+    - lighthouse-ci http://localhost:8080 --emulated-form-factor=desktop --throttling.throughputKbps=54000 --output=json
+
+#lighthouse-hw:
+#  stage: test
+#  only: 
+#    - tags
+#  tags: 
+#    - test-hardware
+#  before_script: 
+#    - nc -z -v -w5 192.168.1.215 80
+#    - ssh pi@192.168.1.215
+#    - cd Client
+#    - enyo init
+#    - enyo pack
+#    - exit
+#  script:
+#    - lighthouse-ci http://192.168.1.215 --emulated-form-factor=desktop --output=json
